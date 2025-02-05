@@ -1,0 +1,11 @@
+[package]
+name = "lor"
+version = "1.0.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+description = "A simple Lorem Ipsum text generator"
+
+[dependencies]
+clap = { version = "4.1", features = ["derive"] }
+lipsum = "0.8"
+arboard = "2.0"
