@@ -3,13 +3,13 @@ use lipsum::lipsum_words;
 use arboard::Clipboard;
 
 /// lor 1.0
-/// Your Name <your.email@example.com>
+/// Nayuta <zzliurenxiang@icloud.com>
 /// A simple Lorem Ipsum text generator
 #[derive(Parser)]
 #[command(
     name = "lor",
     version = "1.0",
-    author = "Your Name <your.email@example.com>",
+    author = "Nayuta <zzliurenxiang@icloud.com>",
     about = "A simple Lorem Ipsum text generator"
 )]
 struct Cli {
