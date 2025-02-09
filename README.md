@@ -26,7 +26,7 @@ cd lor
 
 使用 release 模式编译：
 
-```
+```bash
 cargo build --release
 ```
 
@@ -34,13 +34,13 @@ cargo build --release
 
 将编译后的二进制文件移动到系统 PATH 中的目录，例如：
 
-```
-mv target/release/lor /usr/local/bin/
+```bash
+sudo mv target/release/lor /usr/local/bin/
 ```
 
 或者安装到本地 Cargo 的 bin 目录：
 
-```
+```bash
 mv target/release/lor ~/.cargo/bin/
 ```
 
@@ -48,9 +48,9 @@ mv target/release/lor ~/.cargo/bin/
 
 #### 基本用法
 
-​	•	默认生成 500 个单词并打印到终端：
+- 默认生成 500 个单词并打印到终端：
 
-```
+```bash
 lor
 ```
 
@@ -64,25 +64,25 @@ lor
 
 **生成 500 个单词并打印到终端：**
 
-```
+```bash
 lor
 ```
 
 **生成 500 个单词并复制到剪贴板：**
 
-```
+```bash
 lor -c
 ```
 
 **生成 20 个单词并打印到终端：**
 
-```
+```bash
 lor -l 20
 ```
 
 **生成 20 个单词并复制到剪贴板：**
 
-```
+```bash
 lor -l 20 -c
 # 或者
 lor -c -l 20
@@ -90,13 +90,13 @@ lor -c -l 20
 
 **查看帮助信息：**
 
-```
+```bash
 lor --help
 ```
 
 **查看版本信息：**
 
-```
+```bash
 lor --version
 ```
 
@@ -118,7 +118,7 @@ lor --version
 
 在项目根目录下运行：
 
-```
+```bash
 cargo build --release
 ```
 
